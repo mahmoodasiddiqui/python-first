@@ -5,6 +5,6 @@ for i in range(2000, 3201):
         #print(str(i)+',')
         c.append(i)
         count = count+1
-print("Total Numbers = "+str(count))
-for x in range (0, count):
+for x in range (0,count):
     print(c)
+print("Total Numbers = "+str(count))
