@@ -25,4 +25,5 @@ Then, the output should be:
 Letters 10
 Digits 3
 
+Question5: Dictionary {1:1, 2:4, 3:9}
 
