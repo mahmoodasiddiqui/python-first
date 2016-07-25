@@ -6,9 +6,3 @@ fact.facto(1)'''
 
 from fact import facto
 facto(5)
-
-
-
-
-
-
