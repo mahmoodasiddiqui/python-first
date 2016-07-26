@@ -12,5 +12,6 @@ class Square(Shape):
     def area(self):
         area = self.length*self.length
         return area
+length = input("Enter The Length : ")
 sq = Square(4)
-print(sq.area())
+print("Area = "+str(sq.area()))

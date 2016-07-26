@@ -55,6 +55,18 @@ Please generate a random float where the value is between 10 and 100 using pyhto
 Hints: Use random.random() to generate a random float in [0,1]
 
 
+Q9: Define a class named Circle which can be constructed by a radius. The circle class has a method which can compute the area.
+
+Q10: rectangle
+
+Q11:
+Define a class named Shape and its subclass Square. The Square class has an init function which takes a length as argument. Both classes have a area function which can print the area of the shape where Shape's area is 0 by default.
+
+Hints:
+
+To override a method in super class, we can define a method with the same name in the super class.
+
+
 
 
 
