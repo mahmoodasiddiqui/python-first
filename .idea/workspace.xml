@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a360f34e-9ff8-4374-9cbe-a277b063736c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/num1.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/num2.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/num2.py.ipynb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test.ipynb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vector.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slicing.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twod.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="python-first.iws" />
@@ -31,8 +28,8 @@
       <file leaf-file-name="num1.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/num1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="26" column="16" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
+            <state relative-caret-position="125">
+              <caret line="16" column="32" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -41,18 +38,28 @@
       <file leaf-file-name="num2.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/num2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="18" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="18" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="vector.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/vector.py">
+      <file leaf-file-name="slicing.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/slicing.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="0" column="18" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="twod.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/twod.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -97,6 +104,8 @@
         <option value="$PROJECT_DIR$/num1.py" />
         <option value="$PROJECT_DIR$/num2.py" />
         <option value="$PROJECT_DIR$/vector.py" />
+        <option value="$PROJECT_DIR$/slicing.py" />
+        <option value="$PROJECT_DIR$/twod.py" />
       </list>
     </option>
   </component>
@@ -155,41 +164,7 @@
       </pane>
     </panes>
   </component>
-  <component name="RunManager" selected="Python.vector">
-    <configuration default="false" name="shape" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="python-first" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/shape.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="nump" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="python-first" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/nump.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.twod">
     <configuration default="false" name="num1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -237,6 +212,40 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="python-first" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/vector.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="slicing" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="python-first" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/slicing.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="twod" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="python-first" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/twod.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -376,19 +385,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.shape" />
-      <item index="1" class="java.lang.String" itemvalue="Python.nump" />
-      <item index="2" class="java.lang.String" itemvalue="Python.num1" />
-      <item index="3" class="java.lang.String" itemvalue="Python.num2" />
-      <item index="4" class="java.lang.String" itemvalue="Python.vector" />
+      <item index="0" class="java.lang.String" itemvalue="Python.num1" />
+      <item index="1" class="java.lang.String" itemvalue="Python.num2" />
+      <item index="2" class="java.lang.String" itemvalue="Python.vector" />
+      <item index="3" class="java.lang.String" itemvalue="Python.slicing" />
+      <item index="4" class="java.lang.String" itemvalue="Python.twod" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.vector" />
-        <item index="1" class="java.lang.String" itemvalue="Python.num2" />
-        <item index="2" class="java.lang.String" itemvalue="Python.num1" />
-        <item index="3" class="java.lang.String" itemvalue="Python.nump" />
-        <item index="4" class="java.lang.String" itemvalue="Python.shape" />
+        <item index="0" class="java.lang.String" itemvalue="Python.twod" />
+        <item index="1" class="java.lang.String" itemvalue="Python.slicing" />
+        <item index="2" class="java.lang.String" itemvalue="Python.vector" />
+        <item index="3" class="java.lang.String" itemvalue="Python.num2" />
+        <item index="4" class="java.lang.String" itemvalue="Python.num1" />
       </list>
     </recent_temporary>
   </component>
@@ -409,7 +418,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="7" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -447,20 +456,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/title.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Quiz4.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Quiz5.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -785,26 +780,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/num1.py">
+    <entry file="file://$PROJECT_DIR$/vector.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="26" column="16" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/num2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="18" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vector.py">
+    <entry file="file://$PROJECT_DIR$/slicing.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="18" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/num1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="16" column="32" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/twod.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
           <folding />
         </state>
       </provider>
