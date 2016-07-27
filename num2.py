@@ -1,0 +1,10 @@
+import numpy as np
+a1 = np.array(5)
+a2 = np.array(5)
+a1 = np.arange(0,5)
+a2 = np.arange(5,0,-1)
+print(a1)
+print(a2)
+print(a1<a2)
+sum = np.sum(a1<a2)
+print(sum)
